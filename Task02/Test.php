@@ -3,7 +3,6 @@
 function runTest()
 {
     try {
-        // String representation test
         $m1 = new Fraction(2, 4);
         $correct = "1/2";
         echo "Ожидается: $correct" . PHP_EOL;
@@ -15,7 +14,6 @@ function runTest()
             echo "Тест НЕ ПРОЙДЕН" . PHP_EOL;
         }
 
-        // Adding test
         $m2 = new Fraction(3, 8);
         $m3 = $m1->add($m2);
         $correct = "7/8";
