@@ -4,6 +4,7 @@ namespace App;
 
 class MaxPriceFilter implements ProductFilteringStrategy
 {
+<<<<<<< HEAD
     private $maxPrice;
 
     public function __construct(float $maxPrice)
@@ -17,3 +18,9 @@ class MaxPriceFilter implements ProductFilteringStrategy
         return $price <= $this->maxPrice;
     }
 }
+=======
+    // ===================================
+    //@TODO Реализовать стратегию фильтрации по цене товара
+    // ===================================
+}
+>>>>>>> 9675c20d7b315ceaee3d90c60b5145060d661d11
